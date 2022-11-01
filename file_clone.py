@@ -77,26 +77,25 @@ url_lookup = "https://lookup-id.com/"
 url_m = "https://mbasic.facebook.com"
 url_ip = "https://www.httpbin.org/ip"
 url_graph = "https://graph.facebook.com/{}"
-header_grup = {"user-agent":"Mozilla/5.0 (Mobile; rv:48.0; A405DL) Gecko/48.0 Firefox/48.0 KAIOS/2.5;"}
+header_grup = {"user-agent":"Mozilla/5.0 (Linux; Android 10: 198) Applewebkit/537.36 (KH TML, like Gecko) Chrome/107.0.0.0 M obile Safari/537.36;"}
 bulan_ttl = {"01": "Januari", "02": "Februari", "03": "Maret", "04": "April", "05": "Mei", "06": "Juni", "07": "Juli", "08": "Agustus", "09": "September", "10": "Oktober", "11": "November", "12": "Desember"}
 hhhh, iiii, jjjj, kkkk = "index.php?", "next=https%3A%2F%2Fdevelopers.facebook.com", "%2Ftools%2Fdebug", "%2Faccesstoken%2F"
 dddd, eeee, ffff, gggg = "login", "device-based", "validate-password", "?shbl=0"
 aaaa, bbbb, cccc = "tools", "debug", "accesstoken"
 bahasa = "id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7"
-uas_bawaan = "Mozilla/5.0 (Mobile; rv:48.0; A405DL) Gecko/48.0 Firefox/48.0 KAIOS/2.5;]"
+uas_bawaan = "Mozilla/5.0 (Linux; Android 10: 198) Applewebkit/537.36 (KH TML, like Gecko) Chrome/107.0.0.0 M obile Safari/537.36;]"
 uas_nokiac2 = "NokiaC2-00/2.0 (03.45) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 (Java; U; kau; nokiac2-00) UCBrowser8.3.0.154/70/352/UCWEB Mobile"
-uas_nokiax20 = "Mozilla/5.0 (Mobile; rv:48.0; A405DL) Gecko/48.0 Firefox/48.0 KAIOS/2.5"
-uas_nokiax = "Mozilla/5.0 (Mobile; rv:48.0; A405DL) Gecko/48.0 Firefox/48.0 KAIOS/2.5"
-uas_samsungse = "Mozilla/5.0 (Mobile; rv:48.0; A405DL) Gecko/48.0 Firefox/48.0 KAIOS/2.5"
-uas_redmi9a = "Mozilla/5.0 (Mobile; rv:48.0; A405DL) Gecko/48.0 Firefox/48.0 KAIOS/2.5"
-uas_nokiaxl = "Mozilla/5.0 (Mobile; rv:48.0; A405DL) Gecko/48.0 Firefox/48.0 KAIOS/2.5"
-uas_tes = "Mozilla/5.0 (Mobile; rv:48.0; A405DL) Gecko/48.0 Firefox/48.0 KAIOS/2.5"
-uas_random = random.choice(["Mozilla/5.0 (Mobile; rv:48.0; A405DL) Gecko/48.0 Firefox/48.0 KAIOS/2.5+"])
+uas_nokiax20 = "Mozilla/5.0 (Linux; Android 10: 198) Applewebkit/537.36 (KH TML, like Gecko) Chrome/107.0.0.0 M obile Safari/537.36"
+uas_nokiax = "Mozilla/5.0 (Linux; Android 10: 198) Applewebkit/537.36 (KH TML, like Gecko) Chrome/107.0.0.0 M obile Safari/537.36"
+uas_samsungse = "Mozilla/5.0 (Linux; Android 10: 198) Applewebkit/537.36 (KH TML, like Gecko) Chrome/107.0.0.0 M obile Safari/537.36"
+uas_redmi9a = "Mozilla/5.0 (Linux; Android 10: 198) Applewebkit/537.36 (KH TML, like Gecko) Chrome/107.0.0.0 M obile Safari/537.36"
+uas_nokiaxl = "Mozilla/5.0 (Linux; Android 10: 198) Applewebkit/537.36 (KH TML, like Gecko) Chrome/107.0.0.0 M obile Safari/537.36"
+uas_tes = "Mozilla/5.0 (Linux; Android 10: 198) Applewebkit/537.36 (KH TML, like Gecko) Chrome/107.0.0.0 M obile Safari/537.36"
+uas_random = random.choice(["Mozilla/5.0 (Linux; Android 10: 198) Applewebkit/537.36 (KH TML, like Gecko) Chrome/107.0.0.0 M obile Safari/537.36+"])
 uas_nokiac3 = "NokiaC3-00/5.0 (08.63) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, like Gecko) Safari/420+"
-uas_iphone = "Mozilla/5.0 (obile: ry:48.0: A4050) Gecko/48.0 Firefox/48.0 KA105/2.5"
-uas_nokia5plus = "Mozilla/5.0 (obile: ry:48.0: A4050) Gecko/48.0 Firefox/48.0 KA105/2.5"
-uas_random2 = random.choice(["Mozilla/5.0 (obile: ry:48.0: A4050) Gecko/48.0 Firefox/48.0 KA105/2.5"])
-ugen2=[]
+uas_iphone = "Mozilla/5.0 (Linux; Android 10: 198) Applewebkit/537.36 (KH TML, like Gecko) Chrome/107.0.0.0 M obile Safari/537.36"
+uas_nokia5plus = "Mozilla/5.0 (Linux; Android 10: 198) Applewebkit/537.36 (KH TML, like Gecko) Chrome/107.0.0.0 M obile Safari/537.36"
+uas_random2 = random.choice(["Mozilla/5.0 (Linux; Android 10: 198) Applewebkit/537.36 (KH TML, like Gecko) Chrome/107.0.0.0 M obile Safari/537.36"])
 ugen=[]
 
 try:
