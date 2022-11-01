@@ -121,7 +121,7 @@ for xd in range(10000):
     ugen2.append(uaku)
 
 
-    aa='Mozilla/5.0 (Mobile; U; Android'
+    aa='Mozilla/5.0 (Linux; U; Android'
     b=random.choice(['6','7','8','9','10','11','12'])
     c=' en-us; GT-'
     d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
@@ -211,7 +211,7 @@ def hasil(ok,cp):
 
 
 def cek_apk(session,coki):
-    w=session.get("https://mbasic.facebook.com/settings/apps/tabbed/?tab=active",cookies={"cookie":coki}).text
+    w=session.get("https://m.facebook.com/settings/apps/tabbed/?tab=active",cookies={"cookie":coki}).text
     sop = BeautifulSoup(w,"html.parser")
     x = sop.find("form",method="post")
     game = [i.text for i in x.find_all("h3")]
@@ -342,9 +342,9 @@ class __chigoue__:
     def __pler__(self):
         os.system('clear')
         logo()
-        print ('[1] Method {free.}')
+        print ('[1] Method {free-MEDIUM}')
         print ('[2] Method {mbasic-FAST}')
-        print ('[3] Method {Mobile}')
+        print ('[3] Method {Mobile-SLOW}')
         yan = input('\n%s[%s+%s] Select Method : '%(H,H,H))
         if yan == '':
             print('\n %s[%s×%s] Sorry, it is wrong...!'%(N,M,N));self.__pler__()
