@@ -96,6 +96,7 @@ uas_nokiac3 = "NokiaC3-00/5.0 (08.63) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mo
 uas_iphone = "Mozilla/5.0 (Linux; Android 10: 198) Applewebkit/537.36 (KH TML, like Gecko) Chrome/107.0.0.0 M obile Safari/537.36"
 uas_nokia5plus = "Mozilla/5.0 (Linux; Android 10: 198) Applewebkit/537.36 (KH TML, like Gecko) Chrome/107.0.0.0 M obile Safari/537.36"
 uas_random2 = random.choice(["Mozilla/5.0 (Linux; Android 10: 198) Applewebkit/537.36 (KH TML, like Gecko) Chrome/107.0.0.0 M obile Safari/537.36"])
+ugen2=[]
 ugen=[]
 
 try:
