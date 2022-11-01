@@ -342,9 +342,9 @@ class __chigoue__:
     def __pler__(self):
         os.system('clear')
         logo()
-        print ('[1] Method {free-MEDIUM}')
-        print ('[2] Method {mbasic-FAST}')
-        print ('[3] Method {Mobile-SLOW}')
+        print ('[1] Method {MEDIUM}')
+        print ('[2] Method {FAST}')
+        print ('[3] Method {SLOW}')
         yan = input('\n%s[%s+%s] Select Method : '%(H,H,H))
         if yan == '':
             print('\n %s[%s×%s] Sorry, it is wrong...!'%(N,M,N));self.__pler__()
@@ -352,7 +352,7 @@ class __chigoue__:
             xx = "free.facebook.com"
             self.kombinasi_pw(xx)
         elif yan in ('2', '02'):
-            xx = "mbasic.facebook.com"
+            xx = "m.facebook.com"
             self.kombinasi_pw(xx)
         elif yan in ('3', '03'):
             xx = "m.facebook.com"
