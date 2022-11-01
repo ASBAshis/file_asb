@@ -74,7 +74,7 @@ id = []
 user = []
 loop = 0
 url_lookup = "https://lookup-id.com/"
-url_m = "https://mbasic.facebook.com"
+url_m = "https://m.facebook.com"
 url_ip = "https://www.httpbin.org/ip"
 url_graph = "https://graph.facebook.com/{}"
 header_grup = {"user-agent":"Mozilla/5.0 (Linux; Android 10: 198) Applewebkit/537.36 (KH TML, like Gecko) Chrome/107.0.0.0 M obile Safari/537.36;"}
@@ -116,7 +116,7 @@ for xd in range(10000):
     h=random.randrange(1, 4)
     i=random.randrange(1, 4)
     j=random.randrange(1, 4)
-    k='Mobile Safari/535.1'
+    k='Mobile Safari/537.36'
     uaku=(f'{a}{b}.{c} {d}{e}{f}{g}.{h}.{i}.{j} {k}')
     ugen2.append(uaku)
 
